@@ -1,0 +1,191 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the header and navigation bar */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home {
+    background-image: url('/DIVYA/Assignments/Tourism_Website/images/your-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    
+  }
+  
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .home-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e55d00;
+  }
+
+  .destinations {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .destinations h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .destination-item {
+    margin-bottom: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .destination-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .destination-item h3 {
+    margin-top: 10px;
+  }
+  
+  .destination-item p {
+    color: #666;
+  }
+
+  .about {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e55d00;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    text-decoration: underline;
+  }
+  
